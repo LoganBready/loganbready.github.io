@@ -8,7 +8,7 @@ const Services = () => {
     <div className="services ">
       <h1 className="py-5">My Services</h1>
       <div className="container ">
-        <div className="row ">
+        <div className="row justify-content-center">
           <div className="col-md-3 col-sm-6">
             <div className="box">
               <div className="circle">
