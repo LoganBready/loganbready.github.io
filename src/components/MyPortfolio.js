@@ -8,63 +8,63 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 
 const MyPortfolio = () => {
   return (
-    <div className="portfolio-wrapper">
+    <div className="portfolio-wrapper" id="portfolio">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">Portfolio</h1>
+        <h1 className="text-uppercase text-center py-5">portfolio</h1>
+        <div
+          className="image-box-wrapper row justify-content-center"
+          onClick={() => window.open("https://github.com/LoganBready/ecom-f")}
+        >
+          <div className="portfolio-image-box"></div>
+          <h3 className="image-heading">The Fishing Store</h3>
+          <img
+            className="portfolio-image"
+            src={Ecom}
+            alt="Ecommerce project..."
+          />
+          <div className="overflow"></div>
+        </div>
+        {/* - */}
+        <div
+          className="image-box-wrapper row justify-content-center"
+          onClick={() =>
+            window.open(
+              "https://github.com/LoganBready/theweatherapp.github.io"
+            )
+          }
+        >
+          <h3 className="image-heading">The Weather App</h3>
+          <img
+            className="portfolio-image"
+            src={Weather}
+            alt="Weather App Project"
+          />
+          <div className="overflow"></div>
+        </div>
+        {/* - */}
+        <div
+          className="image-box-wrapper row justify-content-center"
+          onClick={() =>
+            window.open("https://github.com/LoganBready/pp-points")
+          }
+        >
+          <h3 className="image-heading">Paired Programming Tracker</h3>
+          <img
+            className="portfolio-image"
+            src={Points}
+            alt="Programming Points Tracker Project..."
+          />
+          <div className="overflow"></div>
+        </div>
+        {/* - */}
         <div className="image-box-wrapper row justify-content-center">
-          <div
-            className="portfolio-image-box"
-            onClick={() => window.open("https://github.com/LoganBready/ecom-f")}
-          >
-            <img
-              className="portfolio-image"
-              src={Ecom}
-              alt="Ecommerce project..."
-            />
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-          </div>
-
-          <div
-            className="portfolio-image-box"
-            onClick={() => window.open("https://github.com/LoganBready")}
-          >
-            <img
-              className="portfolio-image"
-              src={Weather}
-              alt="Weather App project..."
-            />
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-          </div>
-
-          <div
-            className="portfolio-image-box"
-            onClick={() => window.open("www.loganbready.com")}
-          >
-            <img
-              className="portfolio-image"
-              src={Portfolio}
-              alt="My portfolio project..."
-            />
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-          </div>
-
-          <div
-            className="portfolio-image-box"
-            onClick={() =>
-              window.open("https://github.com/LoganBready/pp-points")
-            }
-          >
-            <img
-              className="portfolio-image"
-              src={Points}
-              alt="My Paired Programing project..."
-            />
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-          </div>
+          <h3 className="image-heading">Portfolio Website</h3>
+          <img
+            className="portfolio-image"
+            src={Portfolio}
+            alt="Portfolio Website Project..."
+          />
+          <div className="overflow"></div>
         </div>
       </div>
     </div>

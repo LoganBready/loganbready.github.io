@@ -8,6 +8,7 @@ import Services from "./components/Services";
 import Experience from "./components/Experience";
 import MyPortfolio from "./components/MyPortfolio";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
       <Experience />
       <MyPortfolio />
       <Contact />
+      <Footer />
     </>
   );
 }

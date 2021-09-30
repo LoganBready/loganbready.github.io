@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <div className="experience" id="experience">
       <div className="d-flex justify-content-center my-5"></div>
       <h1 className="mb-5">Experience</h1>
       <div className="container experience-wrapper">

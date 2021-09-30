@@ -77,7 +77,7 @@ nav ul li {
   background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -319,6 +319,7 @@ nav ul li {
 }
 
 /****************** Portfolio ***********************/
+
 .portfolio-wrapper {
   background: var(--primary-light-grey);
   padding: 3rem 0;
@@ -327,43 +328,22 @@ nav ul li {
 .portfolio-image {
   width: 15rem;
   border: 1px solid var(--primary-orange);
-  padding: 0 0.5rem;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
 }
 
 .portfolio-image-box {
   position: relative;
-  margin: 1rem;
-}
-/***************** OverFlow ********************/
-.overflow {
-  position: absolute;
-  opacity: 0;
-  background: var(--primary-black);
-  width: 15rem;
-  height: 8rem;
-  top: 0;
-  border: 1px solid var(--primary-yellow);
-  cursor: pointer;
+  margin: 3rem;
 }
 
-.portfolio-image-box:hover .overflow {
-  opacity: 60%;
-  transition: 0.3s ease-in-out;
+.image-heading {
+  text-transform: uppercase;
+  padding-top: 3rem;
 }
 
-.portfolio-icon {
-  position: absolute;
-  opacity: 0;
-  margin-left: -8rem;
-  margin-top: 3.6rem;
-  color: var(--primary-orange);
-  font-size: 1.5rem;
-}
+/***************** fix ********************/
 
-.portfolio-image-box:hover .portfolio-icon {
-  opacity: 70%;
-  transition: 0.3s ease-in-out;
-}
 /***************** Contact ********************/
 .contacts {
   background: var(--primary-dark);
@@ -452,4 +432,25 @@ input.form-control {
   .contacts p {
     padding: 0 1rem;
   }
+}
+/****************** FOOTER *****************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
