@@ -8,7 +8,7 @@ const MyPortfolio = () => {
   return (
     <div className="portfolio-wrapper" id="portfolio">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">portfolio</h1>
+        <h1 className="text-uppercase  text-center py-5">portfolio</h1>
         <div
           className="image-box-wrapper row justify-content-center"
           onClick={() => window.open("https://github.com/LoganBready/ecom-f")}
