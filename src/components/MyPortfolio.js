@@ -3,8 +3,6 @@ import Ecom from "../images/ecom-f.PNG";
 import Weather from "../images/theweatherapp.PNG";
 import Portfolio from "../images/portfolio.PNG";
 import Points from "../images/pppoints.PNG";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 
 const MyPortfolio = () => {
   return (
